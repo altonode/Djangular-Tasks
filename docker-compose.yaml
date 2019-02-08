@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  drf:
+    container_name: drf
+    build: djangorest
+    command: python manage.py runserver 0.0.0.0:80
+    volumes:
+      - ./djangorest:/code
+    ports:
+      - "80:80"
