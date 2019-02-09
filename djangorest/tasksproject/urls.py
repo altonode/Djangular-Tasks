@@ -21,4 +21,5 @@ from tasksapi import views as tasksapi_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/task/', tasksapi_views.TaskList.as_view(), name='task-list'),
+    path('api/task/<int:task_id>/', tasksapi_views.TaskDetail.as_view(), name='task-detail'),
 ]
