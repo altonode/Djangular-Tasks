@@ -13,6 +13,6 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   public getTasks(): Observable<Task[]> {
-    return this.http.get<Task[]>(`${this.API_URL}/task/`);
+    return this.http.get<Task[]>(`${this.API_URL}task/`);
   }
 }
