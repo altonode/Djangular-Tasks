@@ -5,17 +5,17 @@ A simple Django Rest Framework API that interacts with an Angular frontend to cr
 
 ### Prerequisites
 
-Django 2.1.5 |
-Django Rest Framework 3.9.0 |
-Angular 7.2.4 |
-Docker-Engine 18.09.0 
+Django 2.1.5 <br />
+Django Rest Framework 3.9.0 <br />
+Angular 7.2.4 <br />
+Docker-Engine 18.09.0 <br />
 
 
 ## Development
 
-git clone https://github.com/altonode/Djangular-Tasks.git
-docker-compose build
-docker-compose up -d
+git clone https://github.com/altonode/Djangular-Tasks.git <br />
+docker-compose build <br />
+docker-compose up -d <br />
 
 ## Acknowledgments
 
